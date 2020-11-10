@@ -1,12 +1,7 @@
 import edu.duke.*;
 import java.util.ArrayList;
 
-/**
- * Write a description of CharactersInPlay here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class CharactersInPlay {
     private ArrayList<String> myWords;
     private ArrayList<Integer> myFreqs;
@@ -65,9 +60,10 @@ public class CharactersInPlay {
         }
         
         System.out.println("-----------------------------------");
-        charactersWithNumParts(10,15);
+        charactersWithNumParts(43,105);
         
         myFreqs.sort(null);
 	System.out.println(myFreqs.get(myFreqs.size()-1));
+	System.out.println(myFreqs);
     }
 }
