@@ -26,7 +26,7 @@ public class VigenereBreaker {
 
     public void breakVigenere () {
         System.out.println("Select the file to be encrypted");
-        FileResource file = new FileResource("VigenereTestData/secretmessage3.txt");
+        FileResource file = new FileResource("");
         String message = file.asString();
         
         HashMap<String, HashSet<String>> languagesDict = new HashMap<String, HashSet<String>>();
